@@ -1,36 +1,64 @@
-@import url(http://fonts.googleapis.com/css?family=Dosis:400,500,600,700,800,300,200);
+@import url(
+  http://fonts.googleapis.com/css?family=Dosis:400,
+  500,
+  600,
+  700,
+  800,
+  300,
+  200
+);
 /*************************
 *******Typography*********
 **************************/
 
 body {
-  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-  font-size: 16px;
+  font-family: Georgia, "New Century Schoolbook", Times, serif;
+  /* font-family: 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro",
+    "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック",
+    "MS PGothic", sans-serif; */
+  /* font-size: 16px; */
+  font-size: : small
   line-height: 26px;
   color: #fff;
 }
 
 body,
 .preloader {
-  background: -webkit-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #649173 10%, #DBD5A4 90%); /* W3C */
+  background: -webkit-linear-gradient(
+    90deg,
+    #649173 10%,
+    #dbd5a4 90%
+  ); /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(
+    90deg,
+    #649173 10%,
+    #dbd5a4 90%
+  ); /* FF3.6+ */
+  background: -ms-linear-gradient(90deg, #649173 10%, #dbd5a4 90%); /* IE10 */
+  background: -o-linear-gradient(
+    90deg,
+    #649173 10%,
+    #dbd5a4 90%
+  ); /* Opera 11.10+ */
+  background: linear-gradient(90deg, #649173 10%, #dbd5a4 90%); /* W3C */
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #fff !important;
 }
 
 ul {
   list-style: none;
-  padding: 0
+  padding: 0;
 }
 
-
 a {
-  color:#fff;
+  color: #fff;
   text-decoration: none;
   -webkit-transition: color 400ms, background-color 400ms;
   transition: color 400ms, background-color 400ms;
@@ -40,7 +68,7 @@ a:focus,
 a:hover {
   text-decoration: none;
   outline: none;
-  color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .preloader {
@@ -93,7 +121,7 @@ a:hover {
   margin: 0;
 }
 
-#header .nav-button{
+#header .nav-button {
   display: inline-block;
   margin-top: 10px;
   text-transform: uppercase;
@@ -105,7 +133,7 @@ a:hover {
   top: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255,255,255,.8);
+  background: rgba(255, 255, 255, 0.8);
   z-index: 99999;
   text-align: center;
   display: none;
@@ -113,7 +141,7 @@ a:hover {
 
 .main-nav {
   background-color: #fff;
-  width: 400px;;
+  width: 400px;
   display: inline-block;
   position: relative;
 }
@@ -138,7 +166,7 @@ a:hover {
   padding-bottom: 20px;
   font-weight: 700;
   font-size: 36px;
-  color:#5e5e5e;
+  color: #5e5e5e;
 }
 
 .main-nav ul li:first-child a {
@@ -208,7 +236,6 @@ a:hover {
   margin-top: 130px;
 }
 
-
 #page-slider .item {
   height: 100%;
   background-position: 50%;
@@ -217,18 +244,18 @@ a:hover {
 }
 
 .welcome-page-left {
-  left:20px;
+  left: 20px;
 }
 
 .welcome-page-right {
-  right:20px;
+  right: 20px;
 }
 
 .welcome-page-left,
 .welcome-page-right {
   position: absolute;
   top: 50%;
-  margin-top:-35px;
+  margin-top: -35px;
   font-size: 57px;
   z-index: 10;
 }
@@ -260,7 +287,7 @@ a:hover {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   opacity: 0;
   -webkit-transition: opacity 400ms;
@@ -277,20 +304,19 @@ a.readmore {
 }
 
 .box {
-  background: rgba(0,0,0,.2);
+  background: rgba(0, 0, 0, 0.2);
   padding: 20px;
   -webkit-transition: background-color 400ms;
   transition: background-color 400ms;
 }
 
 .box:hover {
-  background: rgba(0,0,0,.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #footer {
   margin: 30px 0;
 }
-
 
 /*************************
 *****Contact Page CSS*****
@@ -304,12 +330,12 @@ a.readmore {
 }
 
 .btn.btn-transparent {
-  background: rgba(0,0,0,.5);
+  background: rgba(0, 0, 0, 0.5);
   color: #fff;
 }
 
 .btn.btn-transparent:hover {
-  background: rgba(255,255,255,.3);
+  background: rgba(255, 255, 255, 0.3);
   color: #fff;
 }
 
@@ -322,21 +348,21 @@ textarea.form-control {
   background: transparent;
   box-shadow: none;
   -webkit-box-shadow: none;
-  border: 2px solid rgba(255,255,255,.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .form-control::-webkit-input-placeholder {
- color: rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .form-control:-moz-placeholder {
- color: rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .form-control::-moz-placeholder {
- color: rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .form-control:-ms-input-placeholder {
- color: rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, 0.8);
 }

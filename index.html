@@ -1,144 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <title>DeepCalorieCam</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
     <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-        <script src="js/respond.min.js"></script>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/icon.png">
-</head><!--/head-->
+    <link rel="shortcut icon" href="images/icon.png" /></head
+  ><!-- /head -->
 
-<body>
+  <body>
+    <!-- .preloader -->
+    <div class="preloader"><i class="fa fa-circle-o-notch fa-spin"></i></div>
+    <!-- /.preloader -->
 
-<!--.preloader-->
-<div class="preloader"><i class="fa fa-circle-o-notch fa-spin"></i></div>
-<!--/.preloader-->
-
-<header id="header">
-    <div class="container">
+    <header id="header">
+      <div class="container">
         <div class="container-inner">
-            <div class="logo pull-left">
-                <a class="pull-left logo" href="index.html">
-                    <h1><img class="img-responsive" src="images/log.png" alt="logo" width =550 height = 500></h1>
-                </a>
-            </div>
-            <div class="menu pull-right">
-                <a href="#" class="nav-button">
-                    <i class="fa fa-align-justify"></i> Menu
-                </a>
-            </div>
+          <div class="logo pull-left">
+            <a class="pull-left logo" href="index.html">
+              <h1>
+                <img
+                  class="img-responsive"
+                  src="images/log.png"
+                  alt="logo"
+                  width="550"
+                  height="500"
+                />
+              </h1>
+            </a>
+          </div>
+          <div class="menu pull-right">
+            <a href="#" class="nav-button">
+              <i class="fa fa-align-justify"></i> Menu
+            </a>
+          </div>
         </div>
-    </div>
-</header> <!--/#header-->
+      </div>
+    </header>
+    <!-- /#header -->
 
-<div id="navigation">
-    <div class="vertical-middle">
+    <div id="navigation">
+      <div class="vertical-middle">
         <div class="vertical-middle-inner">
-            <div class="main-nav">
-                <a id="hidemenu" href="#"><i class="fa fa-times-circle fa-2x"></i></a>
-                <ul>
-                    <li class="active"><a href="#" data-target="#page-slider" data-slide-to="0">Home</a></li>
-                    <li><a href="#" data-target="#page-slider" data-slide-to="1">About</a></li>
-                    <!-- <li><a href="#" data-target="#page-slider" data-slide-to="2">Service</a></li> -->
-                    <li><a href="#" data-target="#page-slider" data-slide-to="2">ScreenShots</a></li>
-                    <!-- <li><a href="#" data-target="#page-slider" data-slide-to="4">Blog</a></li> -->
-                    <!-- <li><a href="#" data-target="#page-slider" data-slide-to="3">Contact</a></li> -->
-                </ul>
-            </div>
+          <div class="main-nav">
+            <a id="hidemenu" href="#"
+              ><i class="fa fa-times-circle fa-2x"></i
+            ></a>
+            <ul>
+              <li class="active">
+                <a href="#" data-target="#page-slider" data-slide-to="0"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="#" data-target="#page-slider" data-slide-to="1"
+                  >About</a
+                >
+              </li>
+              <!--
+                <li><a href="#" data-target="#page-slider" data-slide-to="2">Service</a></li>
+              -->
+              <li>
+                <a href="#" data-target="#page-slider" data-slide-to="2"
+                  >ScreenShots</a
+                >
+              </li>
+              <!--
+                <li><a href="#" data-target="#page-slider" data-slide-to="4">Blog</a></li>
+              -->
+              <!--
+                <li><a href="#" data-target="#page-slider" data-slide-to="3">Contact</a></li>
+              -->
+            </ul>
+          </div>
         </div>
+      </div>
     </div>
-</div><!--/#navigation-->
+    <!-- /#navigation -->
 
-<section id="welcome-page">
-
-    <div id="page-slider" class="carousel slide" data-interval="false">
-
+    <section id="welcome-page">
+      <div id="page-slider" class="carousel slide" data-interval="false">
         <ol class="carousel-indicators visible-xs">
-            <li data-target="#page-slider" data-slide-to="0" class="active"></li>
-            <li data-target="#page-slider" data-slide-to="1"></li>
-            <li data-target="#page-slider" data-slide-to="2"></li>
-            <li data-target="#page-slider" data-slide-to="3"></li>
-            <!-- <li data-target="#page-slider" data-slide-to="4"></li>
-            <li data-target="#page-slider" data-slide-to="5"></li> -->
+          <li data-target="#page-slider" data-slide-to="0" class="active"></li>
+          <li data-target="#page-slider" data-slide-to="1"></li>
+          <li data-target="#page-slider" data-slide-to="2"></li>
+          <li data-target="#page-slider" data-slide-to="3"></li>
+          <!--
+            <li data-target="#page-slider" data-slide-to="4"></li>
+            <li data-target="#page-slider" data-slide-to="5"></li>
+          -->
         </ol>
 
-        <a class="welcome-page-left hidden-xs" href="#page-slider" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-        <a class="welcome-page-right hidden-xs" href="#page-slider" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+        <a
+          class="welcome-page-left hidden-xs"
+          href="#page-slider"
+          data-slide="prev"
+          ><i class="fa fa-chevron-left"></i
+        ></a>
+        <a
+          class="welcome-page-right hidden-xs"
+          href="#page-slider"
+          data-slide="next"
+          ><i class="fa fa-chevron-right"></i
+        ></a>
 
         <div class="carousel-inner">
-
-            <div id="home-page" class="item active">
-                <div class="container">
-                    <div class="vertical-middle">
-                        <div class="vertical-middle-inner">
-                            <div class="row">
-                                <div class="col-sm-6 col-md-push-6">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FOho7WyntOw" frameborder="0" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-pull-6">
-                                    <h3 class="heading">DeepCalorieCam</h3>
-                                    <p class="lead">An iOS App for Automatic Calorie Estimation. <br> <br>
-A food photo generally includes several kinds of food dishes. In order to recognize food images including multiple dishes, we need to detect each dish in food images. Meanwhile, in recent years, the accuracy of object detection has improved drastically by the appearance of Convolutional Neural Network (CNN). In this demo, we present an automatic calorie estimation app, DeepCalorieCam, running on iOS. DeepCalorieCam can estimate the calorie after detecting dishes from the video stream captured from the built-in camera of an iPhone. We use YOLOv2 [2] which is the state-of-the-art object detection system using CNN, as a dish detector to detect each dish in a food image, and the food calorie of each detected dish are estimated by image-based food calorie estimation [1].
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+          <div id="home-page" class="item active">
+            <div class="container">
+              <div class="vertical-middle">
+                <div class="vertical-middle-inner">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-push-6">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe
+                          width="560"
+                          height="315"
+                          src="https://www.youtube.com/embed/FOho7WyntOw"
+                          frameborder="0"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
                     </div>
-                </div>
-            </div><!--/#home-page-->
-
-            <div id="about-page" class="item">
-                <div class="container">
-
-                    <div class="vertical-middle">
-                        <div class="vertical-middle-inner">
-
-                            <div class="text-center">
-                                <h2 class="page-header">About DeepCalorieCam</h2>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="box">
-                                        <h3>Training</h3>
-                                        <p>We implemented the network proposed
-as a real-time object detection network called YOLOv2 by Redmon et al. [1] and the multi-task CNN proposed as a simultaneous estimation of food categories and calories calorie by Ege et al. [2]. </p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="box">
-                                        <h3>Coverting Trained Models and Deploying</h3>
-                                        <p>
-First, we trained the dish detector by fine-tuning YOLOv2[1] with UECFOOD-100. Next, we trained food calorie estimation CNN by fine-tuning ResNet50 with food calorie estimation with 15 categories dataset[2]. After that, we converted the trained models for CoreML and deployed it to iOS.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="box">
-                                        <h3>References</h3>
-                                        <p>[1]J. Redmon and A. Farhadi. YOLO9000: Better, Faster, Stronger. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.<br>
-                                        [2]T. Ege and K. Yanai. Simultaneous Estimation of Food Categories and Calories with Multi-task CNN. In Proc. of ACPR International Conference on Machine Vision Applications (MVA), 2017.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
+                    <div class="col-sm-6 col-md-pull-6">
+                      <h3 class="heading">DeepCalorieCam</h3>
+                      <p class="lead">
+                        An iOS App for Automatic Calorie Estimation. <br />
+                        <br />
+                        A food photo generally includes several kinds of food
+                        dishes. In order to recognize food images including
+                        multiple dishes, we need to detect each dish in food
+                        images. Meanwhile, in recent years, the accuracy of
+                        object detection has improved drastically by the
+                        appearance of Convolutional Neural Network (CNN). In
+                        this demo, we present an automatic calorie estimation
+                        app, DeepCalorieCam, running on iOS. DeepCalorieCam can
+                        estimate the calorie after detecting dishes from the
+                        video stream captured from the built-in camera of an
+                        iPhone. We use YOLOv2 [2] which is the state-of-the-art
+                        object detection system using CNN, as a dish detector to
+                        detect each dish in a food image, and the food calorie
+                        of each detected dish are estimated by image-based food
+                        calorie estimation [1].
+                      </p>
                     </div>
-
+                  </div>
                 </div>
-            </div><!--/#about-page-->
+              </div>
+            </div>
+          </div>
+          <!-- /#home-page -->
 
-            <!-- <div id="service-page" class="item">
+          <div id="about-page" class="item">
+            <div class="container">
+              <div class="vertical-middle">
+                <div class="vertical-middle-inner">
+                  <div class="text-center">
+                    <h2 class="page-header">About DeepCalorieCam</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="box">
+                        <h3>Training</h3>
+                        <p>
+                          We implemented the network proposed as a real-time
+                          object detection network called YOLOv2 by Redmon et
+                          al. [1] and the multi-task CNN proposed as a
+                          simultaneous estimation of food categories and
+                          calories calorie by Ege et al. [2].
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="box">
+                        <h3>Coverting Trained Models and Deploying</h3>
+                        <p>
+                          First, we trained the dish detector by fine-tuning
+                          YOLOv2[1] with UECFOOD-100. Next, we trained food
+                          calorie estimation CNN by fine-tuning ResNet50 with
+                          food calorie estimation with 15 categories dataset[2].
+                          After that, we converted the trained models for CoreML
+                          and deployed it to iOS.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="box">
+                        <h3>References</h3>
+                        <p>
+                          [1]J. Redmon and A. Farhadi. YOLO9000: Better, Faster,
+                          Stronger. In The IEEE Conference on Computer Vision
+                          and Pattern Recognition (CVPR), 2017.<br />
+                          [2]T. Ege and K. Yanai. Simultaneous Estimation of
+                          Food Categories and Calories with Multi-task CNN. In
+                          Proc. of ACPR International Conference on Machine
+                          Vision Applications (MVA), 2017.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /#about-page -->
+
+          <!--
+            <div id="service-page" class="item">
                 <div class="container">
 
                     <div class="vertical-middle">
@@ -183,72 +259,81 @@ First, we trained the dish detector by fine-tuning YOLOv2[1] with UECFOOD-100. N
                     </div>
 
                 </div>
-            <!-- </div><!--/#service-page-->
+            <!-- </div><!--/#service-page
+          -->
 
-            <div id="portfolio-page" class="item">
-                <div class="container">
+          <div id="portfolio-page" class="item">
+            <div class="container">
+              <div class="vertical-middle">
+                <div class="vertical-middle-inner">
+                  <div class="text-center">
+                    <h2 class="page-header">ScreenShots</h2>
+                  </div>
 
-                    <div class="vertical-middle">
-                        <div class="vertical-middle-inner">
-
-                            <div class="text-center">
-                                <h2 class="page-header">ScreenShots</h2>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="overlay-container">
+                        <img
+                          class="img-responsive"
+                          src="images/portfolio/f1.jpeg"
+                          alt=""
+                        />
+                        <div class="overlay">
+                          <div class="vertical-middle">
+                            <div class="vertical-middle-inner">
+                              <a href="#"><i class="fa fa-plus"></i></a>
+                              <h4>Fig. 1</h4>
+                              "DeepCalorieCam" running on an iPhone 7 Plus
                             </div>
-
-                            <div class="row">
-
-                                <div class="col-sm-4">
-                                    <div class="overlay-container">
-                                        <img class="img-responsive" src="images/portfolio/f1.jpeg" alt="">
-                                        <div class="overlay">
-                                            <div class="vertical-middle">
-                                                <div class="vertical-middle-inner">
-                                                    <a href="#"><i class="fa fa-plus"></i></a>
-                                                    <h4>Fig. 1</h4>
-                                                    "DeepCalorieCam" running on an iPhone 7 Plus
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="overlay-container">
-                                        <img class="img-responsive" src="images/portfolio/f2.png" alt="">
-                                        <div class="overlay">
-                                            <div class="vertical-middle">
-                                                <div class="vertical-middle-inner">
-                                                    <a href="#"><i class="fa fa-plus"></i></a>
-                                                    <h4>Fig. 2</h4>
-                                                    Flow of Dish Detection and Calorie Estimation
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="overlay-container">
-                                        <img class="img-responsive" src="images/portfolio/f3.png" alt="">
-                                        <div class="overlay">
-                                            <div class="vertical-middle">
-                                                <div class="vertical-middle-inner">
-                                                    <a href="#"><i class="fa fa-plus"></i></a>
-                                                    <h4>Fig. 3</h4>
-                                                    Flow of "DeepCalorieCam" Implementation
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
+                          </div>
                         </div>
+                      </div>
                     </div>
-
+                    <div class="col-sm-4">
+                      <div class="overlay-container">
+                        <img
+                          class="img-responsive"
+                          src="images/portfolio/f2.png"
+                          alt=""
+                        />
+                        <div class="overlay">
+                          <div class="vertical-middle">
+                            <div class="vertical-middle-inner">
+                              <a href="#"><i class="fa fa-plus"></i></a>
+                              <h4>Fig. 2</h4>
+                              Flow of Dish Detection and Calorie Estimation
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="overlay-container">
+                        <img
+                          class="img-responsive"
+                          src="images/portfolio/f3.png"
+                          alt=""
+                        />
+                        <div class="overlay">
+                          <div class="vertical-middle">
+                            <div class="vertical-middle-inner">
+                              <a href="#"><i class="fa fa-plus"></i></a>
+                              <h4>Fig. 3</h4>
+                              Flow of "DeepCalorieCam" Implementation
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </div><!--/#portfolio-page-->
+              </div>
+            </div>
+          </div>
+          <!-- /#portfolio-page -->
 
-            <!-- <div id="blog-page" class="item">
+          <!--
+            <div id="blog-page" class="item">
                 <div class="container">
 
                     <div class="vertical-middle">
@@ -306,10 +391,11 @@ First, we trained the dish detector by fine-tuning YOLOv2[1] with UECFOOD-100. N
                     </div>
 
                 </div>
-            </div><!--/#blog-page-->
+            </div><!--/#blog-page
+          -->
 
-
-            <!-- <div id="contact-page" class="item">
+          <!--
+            <div id="contact-page" class="item">
                 <div class="container">
 
                     <div class="vertical-middle">
@@ -357,18 +443,22 @@ First, we trained the dish detector by fine-tuning YOLOv2[1] with UECFOOD-100. N
                     </div>
 
                 </div>
-            </div><!--/#contact-page-->
-        </div><!--/.carousel-inner-->
-    </div>
-</section>
+            </div><!--/#contact-page
+          -->
+        </div>
+        <!-- /.carousel-inner -->
+      </div>
+    </section>
 
-<footer id="footer" class="text-center">
-  &copy; Copyright 2018, Ryosuke Tanno, Takumi Ege and Keiji Yanai <a target="_blank" href="http://mm.cs.uec.ac.jp/" title="UEC Yanai Lab.">UEC Yanai Lab.</a><br>
-</footer>
+    <footer id="footer" class="text-center">
+      &copy; Copyright 2018, Ryosuke Tanno, Takumi Ege and Keiji Yanai
+      <a target="_blank" href="http://mm.cs.uec.ac.jp/" title="UEC Yanai Lab."
+        >UEC Yanai Lab.</a
+      ><br />
+    </footer>
 
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-
-</body>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
